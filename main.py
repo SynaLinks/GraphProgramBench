@@ -173,6 +173,8 @@ def main() -> int:
 
     config = dict(max_bootstrapped_demos=4, max_labeled_demos=4)
 
+    models_scores = {}
+
     for model_name in tqdm(args.LLM_list):
         student_llm = dspy.OllamaLocal(model=model_name, max_tokens=1024, stop=["\n\n\n"])
         teacher_llm = dspy.OllamaLocal(model=model_name, max_tokens=1024, stop=["\n\n\n"])
@@ -210,9 +212,6 @@ def main() -> int:
                 valset=testset,
             ) """
 
-            test = dspy.Example(dataset[0])
-            print("TEST", test)
-
             evaluate = dspy.evaluate.Evaluate(
                 devset = [dspy.Example(objective).with_inputs("objective") for objective in testset],
                 metric = program_success,
@@ -229,6 +228,12 @@ def main() -> int:
         
         print(scores)
         print(f"{model_name} achieved average score of {np.mean(scores)}")
+
+        models_scores[model_name] = scores
+
+    results = pd.DataFrame(models_scores.values(), columns=examples, index=models_scores.keys())
+    results["average"] = results.mean(axis=1)
+    print(results)
         
     return 0
 
