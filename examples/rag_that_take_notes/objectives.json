@@ -1,0 +1,51 @@
+{
+    "dataset": [
+        {
+            "objective": "What is the definition of machine learning?"
+        },
+        {
+            "objective": "Who made significant contributions to the field of quantum computing?"
+        },
+        {
+            "objective": "Explain me what is a Large Language Model"
+        },
+        {
+            "objective": "What is a neuro-symbolic artificial intelligence?"
+        },
+        {
+            "objective": "When did the French Revolution occur?"
+        },
+        {
+            "objective": "Can you explain the theory of relativity?"
+        },
+        {
+            "objective": "Can you explain the concept of blockchain technology?"
+        },
+        {
+            "objective": "What ethical considerations should be taken into account regarding the integration of AI into various job sectors?"
+        },
+        {
+            "objective": "Can you explain Pythagoras theorem?"
+        },
+        {
+            "objective": "What is a blockchain?"
+        }
+    ],
+    "testset": [
+        {
+            "objective": "Can you explain the concept of blockchain technology?"
+        },
+        {
+            "objective": "Does the lasagna contains tomatoes?"
+        },
+        {
+            "objective": "When did the French Revolution occur?"
+        },
+        {
+            "objective": "What is a blockchain?"
+        },
+        {
+            "objective": "What is the recipe of lasagna?"
+        }
+    ]
+}

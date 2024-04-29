@@ -1,0 +1,51 @@
+{
+    "dataset": [
+        {
+            "objective": "Create a folder called Test"
+        },
+        {
+            "objective": "Write a poem about AI and nature into a file called poem.txt"
+        },
+        {
+            "objective": "What is a neuro-symbolic artificial intelligence?"
+        },
+        {
+            "objective": "Write a python script for a snake game into a file"
+        },
+        {
+            "objective": "Navigate into the folder Test"
+        },
+        {
+            "objective": "List the Test directory"
+        },
+        {
+            "objective": "Read the file called poem.txt"
+        },
+        {
+            "objective": "What is a neuro-symbolic artificial intelligence?"
+        },
+        {
+            "objective": "List your home directory"
+        },
+        {
+            "objective": "List the Test directory"
+        }
+    ],
+    "testset": [
+        {
+            "objective": "Write a poem into a file"
+        },
+        {
+            "objective": "What is a neuro-symbolic artificial intelligence?"
+        },
+        {
+            "objective": "Search for HybridAGI on internet"
+        },
+        {
+            "objective": "Print the current working directory"
+        },
+        {
+            "objective": "List the Test directory"
+        }
+    ]
+}
