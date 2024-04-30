@@ -4,6 +4,8 @@ import argparse
 import json
 import numpy as np
 import pandas as pd
+import math
+import matplotlib.pyplot as plt
 from tqdm import tqdm
 import os
 from hybridagi import GraphProgramInterpreter
@@ -234,6 +236,15 @@ def main() -> int:
     results = pd.DataFrame(models_scores.values(), columns=examples, index=models_scores.keys())
     results["average"] = results.mean(axis=1)
     print(results)
+
+    fig, axes = plt.subplots(nrows=np.(len(results.columns)/3), ncols=len(results.columns)//3, figsize=(15, 5))
+
+    for i, col in enumerate(results.columns):
+        axes[i].hist(results[col], bins=10, edgecolor='black')
+        axes[i].set_title(f'Expérience {i+1}')
+        axes[i].set_xlabel('Performances')
+        axes[i].set_ylabel('Fréquence')
+        axes[i].grid(True)
         
     return 0
 
