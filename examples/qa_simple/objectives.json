@@ -1,0 +1,51 @@
+{
+    "dataset": [
+        {
+            "objective": "What is the city of the spacial and robotics industry in France?"
+        },
+        {
+            "objective": "What is a neuro-symbolic artificial intelligence?"
+        },
+        {
+            "objective": "What is prompt self-refinement?"
+        },
+        {
+            "objective": "How might advancements in artificial intelligence impact the future job market?"
+        },
+        {
+            "objective": "What ethical considerations should be taken into account regarding the integration of AI into various job sectors?"
+        },
+        {
+            "objective": "What are some potential societal implications of widespread automation driven by AI?"
+        },
+        {
+            "objective": "How might AI influence the skills and competencies that are in demand in the job market?"
+        },
+        {
+            "objective": "How can governments and policymakers ensure that the benefits of AI are distributed equitably across society, particularly in terms of employment opportunities?"
+        },
+        {
+            "objective": "What measures can be taken to ensure that AI technologies are used responsibly in the context of employment and recruitment?"
+        },
+        {
+            "objective": "How might AI assist in addressing challenges related to workplace diversity, equity, and inclusion?"
+        }
+    ],
+    "testset": [
+        {
+            "objective": "What are the risks and benefits associated with the use of AI in performance evaluation and decision-making processes within organizations?"
+        },
+        {
+            "objective": "What are the potential effects of AI on job mobility and geographical distribution of employment opportunities?"
+        },
+        {
+            "objective": "What are the negative implications of AI for the gig economy and freelance work?"
+        },
+        {
+            "objective": "What are some potential industries or professions that could be significantly affected by AI in the coming years? list 5 of them"
+        },
+        {
+            "objective": "How can individuals prepare themselves for a future where AI plays a more prominent role in the workforce?"
+        }
+    ]
+}

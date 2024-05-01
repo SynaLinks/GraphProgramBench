@@ -1,0 +1,51 @@
+{
+    "dataset": [
+        {
+            "objective": "Can you tell me how to be successful and be happy?"
+        },
+        {
+            "objective": "What's the meaning of life?"
+        },
+        {
+            "objective": "What's the key to improve?"
+        },
+        {
+            "objective": "Wander the winding paths of words, where each turn may lead to a new interpretation, a new revelation, or a new puzzle to solve."
+        },
+        {
+            "objective": "I want to make a snake python game"
+        },
+        {
+            "objective": "Are there any potential risks or obstacles we should be aware of?"
+        },
+        {
+            "objective": "What's the best way to travel on a budget?"
+        },
+        {
+            "objective": "How do I achieve work-life balance?"
+        },
+        {
+            "objective": "Can you explain Pythagoras theorem?"
+        },
+        {
+            "objective": "What's the key to a fulfilling life?"
+        }
+    ],
+    "testset": [
+        {
+            "objective": "What's the best way to improve my life?"
+        },
+        {
+            "objective": "What's the meaning of life?"
+        },
+        {
+            "objective": "When did the French Revolution occur?"
+        },
+        {
+            "objective": "How can I be happy?"
+        },
+        {
+            "objective": "What is the recipe of lasagna?"
+        }
+    ]
+}

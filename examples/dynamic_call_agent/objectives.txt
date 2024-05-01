@@ -1,0 +1,16 @@
+Create a folder called Test
+Write a poem about AI and nature into a file called poem.txt
+What is a neuro-symbolic artificial intelligence?
+Write a python script for a snake game into a file
+Navigate into the folder Test
+List the Test directory
+Read the file called poem.txt
+What is a neuro-symbolic artificial intelligence?
+List your home directory
+List the Test directory
+
+Write a poem into a file
+What is a neuro-symbolic artificial intelligence?
+Search for HybridAGI on internet
+Print the current working directory
+List the Test directory

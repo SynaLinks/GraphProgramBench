@@ -1,0 +1,51 @@
+{
+    "dataset": [
+        {
+            "objective": "What is the capital of France?"
+        },
+        {
+            "objective": "Who is the current president of the United States?"
+        },
+        {
+            "objective": "What is the square root of 64?"
+        },
+        {
+            "objective": "What is the weather like in London today?"
+        },
+        {
+            "objective": "What is the chemical symbol for gold?"
+        },
+        {
+            "objective": "What is the latest news about space exploration?"
+        },
+        {
+            "objective": "What is the largest planet in our solar system?"
+        },
+        {
+            "objective": "Who won the Nobel Prize for Literature last year?"
+        },
+        {
+            "objective": "What is the value of pi up to two decimal places?"
+        },
+        {
+            "objective": "What is the current population of China?"
+        }
+    ],
+    "testset": [
+        {
+            "objective": "What is the tallest mountain in the world?"
+        },
+        {
+            "objective": "Who is the richest person in the world currently?"
+        },
+        {
+            "objective": "What is the formula for calculating the area of a circle?"
+        },
+        {
+            "objective": "What is the latest news about COVID-19 vaccines?"
+        },
+        {
+            "objective": "What is the chemical formula for water?"
+        }
+    ]
+}
