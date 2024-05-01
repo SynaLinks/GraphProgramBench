@@ -237,14 +237,26 @@ def main() -> int:
     results["average"] = results.mean(axis=1)
     print(results)
 
-    fig, axes = plt.subplots(nrows=np.(len(results.columns)/3), ncols=len(results.columns)//3, figsize=(15, 5))
+    results2 = results.transpose()
 
-    for i, col in enumerate(results.columns):
-        axes[i].hist(results[col], bins=10, edgecolor='black')
-        axes[i].set_title(f'Expérience {i+1}')
-        axes[i].set_xlabel('Performances')
-        axes[i].set_ylabel('Fréquence')
-        axes[i].grid(True)
+    gap = 2
+    x = np.arange(len(results2.columns))
+    width = 1/(len(results2)+gap)
+    fig, ax = plt.subplots(layout="constrained", figsize=(15, 7))
+
+    for multiplier, (exp_name, exp_data) in enumerate(results2.iterrows()):
+        offset = width * multiplier
+        rects = ax.bar(x+offset, exp_data, width, label=exp_name)
+        ax.bar_label(rects, padding=len(results2))
+
+    ax.set_ylabel("Score")
+    ax.set_title("Scores of selected models on the examples")
+    ax.set_xticks(x + width*((len(results2)-1)/2), results2.columns)
+    ax.legend(loc='upper left', ncols=3)
+    ax.set_ylim(0, 100)
+
+    plt.tight_layout()
+    plt.show()  
         
     return 0
 
