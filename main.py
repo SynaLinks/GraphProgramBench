@@ -154,6 +154,7 @@ def case_setup(example_index, embeddings):
                 agent_state = agent_state,
                 tools = tools,
             )
+    
 
     return program_memory, trace_memory, filesystem, agent_state, tools, interpreter
 
